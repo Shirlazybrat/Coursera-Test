@@ -57,7 +57,8 @@ h2.living {
   width: 100%;
 }
  /* desktop version width of the browser window = 992px+
-Tablet view width of the browser window is between 768px and 991px
+Tablet view width of the browser window is between 768px
+and 991px
 Mobile view width of the browser <= 767px. */
 
 @media (min-width: 922px) {

@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+	font-family: Fantasy, Garamond, sans-serif;
+}
+
+div { 
+	padding: 0;
+	width: 30%;
+	margin: 10px;
+	border: 3px solid black;
+  	background: #f0f2ff;
+  	float: left;
+	}
+
+h1 {
+	text-align: center;
+	/*float: relative;*/
+	margin-bottom: 15px;
+}
+
+h2 {
+	width: 35%;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	float: right;
+	text-align: center;
+	margin-bottom: 2px;
+	font-size: 22px;
+	position: relative;
+}
+
+h2.living {
+	background: #FFB6C1;
+ }
+
+ h2.bed {
+	background: #DDA0DD;
+ }
+
+ h2.kitchen {
+	background: #90EE90;
+ }
+
+ p {
+	margin: 10px;
+	text-align: relative;
+	clear: right;
+ }
+ 
+.row {
+  width: 100%;
+}
+ /* desktop version width of the browser window = 992px+
+Tablet view width of the browser window is between 768px and 991px
+Mobile view width of the browser <= 767px. */
+
+@media (min-width: 922px) {
+	#div1, #div2,
+	#div3{
+		float: left;
+	}
+
+	#div1 {
+    width: 30%;
+  }
+  #div2 {
+    width: 30%;
+  }
+  #div3 {
+	width: 30%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+#div1, #div2,
+	#div3{
+		float: left;
+	}
+
+	#div1 {
+    width: 50%;
+  }
+  #div2 {
+    width: 50%;
+  }
+  #div3 {
+	width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+#div1, #div2,
+	#div3{
+		float: left;
+	}
+
+	#div1 {
+    width: 100%;
+  }
+  #div2 {
+    width: 100%;
+  }
+  #div3 {
+	width: 100%;
+  }
+}
+
+
+
+
+
+

@@ -16,6 +16,7 @@ div {
 	border: 3px solid black;
   	background: #f0f2ff;
   	float: left;
+  	position: relative;
 	}
 
 h1 {
@@ -56,9 +57,10 @@ h2.living {
 .row {
   width: 100%;
 }
- /* desktop version width of the browser window = 992px+
-Tablet view width of the browser window is between 768px
-and 991px
+ /* desktop version width of the browser window 
+ = 992px+
+Tablet view width of the browser window is 
+between 768px and 991px
 Mobile view width of the browser <= 767px. */
 
 @media (min-width: 922px) {
@@ -72,6 +74,7 @@ Mobile view width of the browser <= 767px. */
   }
   #div2 {
     width: 30%;
+    position: relative;
   }
   #div3 {
 	width: 30%;
@@ -90,6 +93,7 @@ Mobile view width of the browser <= 767px. */
   }
   #div2 {
     width: 50%;
+    position: relative;
   }
   #div3 {
 	width: 100%;
@@ -107,6 +111,7 @@ Mobile view width of the browser <= 767px. */
   }
   #div2 {
     width: 100%;
+    position: relative;
   }
   #div3 {
 	width: 100%;

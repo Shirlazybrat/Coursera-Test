@@ -126,7 +126,7 @@ body {
 */
 
   /* Home Page */
-  .container .jumbotron {
+  .container {
   box-shadow: 0 0 50px #CCAAB4;
   border: 2px solid #CCAAB4;
   padding: 10;
@@ -142,7 +142,7 @@ h1 {
 	color: #7F4455;
 }
 
-p.jumbotron{
+p.container{
 	margin: 10px;
 	text-align: relative;
 	clear: right;

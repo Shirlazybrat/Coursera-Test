@@ -1,14 +1,14 @@
 /*CSS for webpage */
 body {
 	font-size: 20px;
-	color: magenta;
+	color: #FFD5E1;
 	background-color: #fff; /*be sure to change */
 	font-family: 'Architects Daughter', cursive, Arial;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: magenta;
+  background-color: #7F6A70;
   border-radius: 0;
   border: 0;
 }
@@ -26,7 +26,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Architects Daughter', fantasy, serif;
-  color: purple;
+  color: #FFD5E1;
   font-size: 2em;
   text-transform: uppercase;
   font-weight: bold;
@@ -51,7 +51,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: purple;
+  color: #FFD5E1;
   text-align: center;
 }
 #nav-list a:hover {
@@ -75,7 +75,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid purple;
+  border: 1px solid #FFD5E1;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -85,10 +85,10 @@ body {
 
   /* FOOTER */
 .panel-footer {
-  margin-top: 30px;
-  padding-top: 35px;
+  margin-top: 20px;
+  padding-top: 25;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #7F6A70;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -101,7 +101,7 @@ body {
   font-size: 1.3em;
 }
 #address p {
-  color: #557c3e;
+  color: #FF88AA;
   font-size: .8em;
   line-height: 1.8;
 }
@@ -113,10 +113,40 @@ body {
 }
 /* END FOOTER */
 
+/*.jumbotron {
+   margin-bottom: 0px;
+    background-image: url(images/bed.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+*/
+
   /* Home Page */
   .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+  box-shadow: 0 0 50px #CCAAB4;
+  border: 2px solid #CCAAB4;
+  padding: 10;
+  width: 100%;
+  color: #FF88AA;
+}
+
+h1 {
+	text-align: center;
+	/*float: relative;*/
+	margin-bottom: 15px;
+	font-size: 3em;
+	color: #7F4455;
+}
+
+p.jumbotron{
+	margin: 10px;
+	text-align: relative;
+	clear: right;
+	overflow: hidden;
+	padding: 12px;
 }
 
 }
@@ -151,7 +181,7 @@ body {
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
-  opacity: .8;
+  opacity: .7;
 }
 
 /* END HOME PAGE */
@@ -227,8 +257,8 @@ body {
     margin: 0 20px;
     padding: 10px;
     border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
+    background-color: #FFD5E1;
+    color: #FF88AA;
   }
   #xs-deliver {
     margin-top: 5px;
@@ -278,6 +308,14 @@ body {
   #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
+  }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
   }
 }
 

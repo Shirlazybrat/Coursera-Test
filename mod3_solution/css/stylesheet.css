@@ -63,6 +63,7 @@ body {
 
 #phone {
   margin-top: 5px;
+  font-size: .5em;
 }
 #phone a { /* Phone number */
   text-align: right;
